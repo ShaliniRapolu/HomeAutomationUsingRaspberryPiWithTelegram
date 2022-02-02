@@ -111,7 +111,7 @@ def handle(msg):
         GPIO.cleanup()
         quit()
 
-bot = telepot.Bot("5067977957:AAFClOotjEtnLGP-c4qQZVWQF7zI61qwsy4") 
+bot = telepot.Bot("Enter Your api key generated in telegram") 
 bot.message_loop(handle)
 print("Yes EtherPiBot is ALive ....EthePiBot is listening...\n")
 while 1:
